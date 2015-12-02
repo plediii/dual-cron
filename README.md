@@ -1,0 +1,1 @@
+# dual-cron [![Build Status](https://travis-ci.org/plediii/dual-cron.svg)](https://travis-ci.org/plediii/dual-cron)
