@@ -1,0 +1,34 @@
+{
+  "name": "dual-cron",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint *.js test",
+    "test": "node test",
+    "coverage": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plediii/dual-cron.git"
+  },
+  "author": "Paul J. Ledbetter III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plediii/dual-cron/issues"
+  },
+  "homepage": "https://github.com/plediii/dual-cron#readme",
+  "pre-commit": [
+    "lint"
+  ],
+  "description": "Schedule dual-api events",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "jshint": "^2.8.0",
+    "pre-commit": "^1.1.2",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "cron": "^1.1.0",
+    "dualapi": "^1.3.1"
+  }
+}
